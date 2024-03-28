@@ -1,5 +1,5 @@
 # OOP_Final_Project_-Employee-management-system-
-This git is for our final project for object oriented programming.
+**This git is for our final project for object oriented programming of Employee Management System.**
 <br>
 _Authors_:<br> Ahmad Hassan (23L-3048)
 <br>Ali Khalid (23L-3000)<br>Abdullah Salman (23L-3032) <br> Muhammad Anas (23L-3003)<br>
@@ -20,12 +20,12 @@ This function focuses on providing an intuitive and easy-to-use interface for em
 <br>
 _Purpose:_
 The basic purpose for the creation of an employee management system is to efficiently handle and organize various aspects related to employees within an organization. Some of the key purposes of this project are listed below:
-_● Attendance Management_
-_● Employee Information Management_ 
-_● Salary Management_ 
-_● Hours Worked Tracking_ 
-_● Leave Management_ 
-_● Task Management_ 
-_● User Friendly Interface_
+_● Attendance Management_<br>
+_● Employee Information Management_<br> 
+_● Salary Management_<br> 
+_● Hours Worked Tracking_<br> 
+_● Leave Management_<br> 
+_● Task Management_<br> 
+_● User Friendly Interface_<br>
 
 
