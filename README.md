@@ -2,7 +2,7 @@
 **This git is for our final project for object oriented programming of Employee Management System.**
 <br>
 **_Authors_:**<br><br> Ahmad Hassan (23L-3048)
-<br>Ali Khalid (23L-3000)<br>Abdullah Salman (23L-3032) <br> Muhammad Anas (23L-3005)<br>
+<br>Muhammad Ali Khalid (23L-3012)<br>Abdullah Salman (23L-3032) <br> Muhammad Anas (23L-3005)<br>
 **_Product Functions:_**<br><br>
 **_Attendance Management:_**<br>
 Allow managers to keep track of overall attendance of the employees. Attendance management helps ensure accurate payroll processing, compliance with labor laws, and efficient workforce planning.<br>
