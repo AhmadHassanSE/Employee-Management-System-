@@ -1,0 +1,115 @@
+#include "employee.h"
+using namespace std;
+Employee::Employee(QString username, QString id, QString name, QString age, QString gender,
+                   QString department, QString email, QString mobile, QString cnic, int salary,
+                   QString experienceInYears, int totalLeaves, int approvedLeaves, int rejectedLeaves){
+    setUsername(username);
+    setId(id);
+    setName(name);
+    setAge(age);
+    setGender(gender);
+    setDepartment(department);
+    setEmail(email);
+    setMobile(mobile);
+    setCnic(cnic);
+    setSalary(salary);
+    setExperienceInYears(experienceInYears);
+    setTotalLeaves(totalLeaves);
+    setApprovedLeaves(approvedLeaves);
+    setRejectedLeaves(rejectedLeaves);
+
+}
+// Setters
+void Employee::setUsername(QString userName){
+    this->username = userName;
+}
+void Employee::setId(QString id){
+    this->id = id;
+}
+void Employee::setName(QString name){
+    this->name = name;
+}
+void Employee::setGender(QString gender){
+    if(gender == "male" || gender == "female")
+        this->gender = gender;
+}
+void Employee::setAge(QString age){
+    if(age > 0)
+        this->age = age;
+}
+void Employee::setDepartment(QString department){
+    this->department = department;
+}
+void Employee::setEmail(QString email){
+    this->email = email;
+}
+void Employee::setMobile(QString mobile){
+    if (mobile.length() == 11)
+        this->mobile = mobile;
+}
+void Employee::setCnic(QString cnic){
+    if(cnic.length() == 13)
+        this->cnic = cnic;
+}
+void Employee::setSalary(int salary){
+    if(salary > 0)
+        this->salary = salary;
+}
+void Employee::setExperienceInYears(QString experienceInYears){
+    this->experienceInYears = experienceInYears;
+}
+void Employee::setTotalLeaves(int totalLeaves){
+    if(totalLeaves >= 0 && totalLeaves <= 20)
+        this->totalLeaves = totalLeaves;
+}
+void Employee::setApprovedLeaves(int approvedLeaves){
+    if(approvedLeaves <= totalLeaves)
+        this->approvedLeaves = approvedLeaves;
+}
+void Employee::setRejectedLeaves(int rejectedLeaves){
+    if(rejectedLeaves <= totalLeaves)
+        this->rejectedLeaves = rejectedLeaves;
+}
+// Getters
+QString Employee::getUsername(){
+    return this->username;
+}
+QString Employee::getId(){
+    return this->id;
+}
+QString Employee::getName(){
+    return this->name;
+}
+QString Employee::getAge(){
+    return this->age;
+}
+QString Employee::getGender(){
+    return this->gender;
+}
+QString Employee::getDepartment(){
+    return this->department;
+}
+QString Employee::getEmail(){
+    return this->email;
+}
+QString Employee::getMobile(){
+    return this->mobile;
+}
+QString Employee::getCnic(){
+    return this->cnic;
+}
+int Employee::getSalary(){
+    return this->salary;
+}
+QString Employee::getExperienceInYears(){
+    return this->experienceInYears;
+}
+int Employee::getTotalLeaves(){
+    return this->totalLeaves;
+}
+int Employee::getApprovedLeaves(){
+    return this->approvedLeaves;
+}
+int Employee::getRejectedLeaves(){
+    return this->rejectedLeaves;
+}
